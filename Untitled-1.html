@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>CSS</title>
+        <style type="text/css">
+            div
+            {
+                height:250px;
+                width:350px;
+                transition:3s;
+                font-size:30px;
+                font-weight:bold;
+                font-style: italic;
+                color:black;
+                background-color:rgb(81, 255, 0);
+            }
+            #translateDiv:hover
+            {
+                -webkit-transform:translate(100px,100px);
+                   -moz-transform:translate(100px,100px);
+                    -ms-transform:translate(100px,100px);
+                     -o-transform:translate(100px,100px);
+                        transform:translate(100px,100px);
+                      background-color:rgb(43, 255, 0);
+                      color:blue; 
+            }
+            #rotateDiv:hover
+            {
+                -webkit-transform:rotate(360deg);
+                   -moz-transform:rotate(360deg);
+                    -ms-transform:rotate(360deg);
+                     -o-transform:rotate(360deg);
+                        transform:rotate(360deg);
+                      background-color:rgb(255, 231, 20);
+                      color:rgb(0, 255, 149); 
+            }
+            #rotateDiv3D:hover
+            {
+                -webkit-transform:rotate3d(1,1,0,360deg);
+                   -moz-transform:rotate3d(1,1,0,360deg);
+                    -ms-transform:rotate3d(1,1,0,360deg);
+                     -o-transform:rotate3d(1,1,0,360deg);
+                        transform:rotate3d(1,1,0,360deg);
+                      background-color:rgb(255, 20, 20);
+                      color:rgb(94, 25, 15); 
+            }
+            #skewDiv:hover{
+                -webkit-transform:skew(45deg);
+                   -moz-transform:skew(45deg);
+                    -ms-transform:skew(45deg);
+                     -o-transform:skew(45deg);
+                        transform:skew(45deg);
+                      background-color:rgb(216, 128, 240);
+                      color:Yellow; 
+            }
+            #scaleDiv:hover
+            {
+                -webkit-transform:scale(1.5,0.5);
+                   -moz-transform:scale(1.5,0.5);
+                    -ms-transform:scale(1.5,0.5);
+                     -o-transform:scale(1.5,0.5);
+                        transform:scale(1.5,0.5);
+                      background-color:rgb(148, 141, 91);
+                      color:rgb(191, 191, 108); 
+            }
+            #opacityDiv:hover
+            {
+                opacity:0.4;
+            }
+            #RGBADiv:hover
+            {
+                background:rgba(128,128,0,0.5);
+            }
+            #boxShadowDiv:hover
+            {
+                box-shadow:0px 0px 30px Blue;
+            }
+            #textShadow:hover
+            {
+                text-shadow:3px 3px 3px yellow;
+            }
+            #borderRadius:hover
+            {
+                border-radius:50%;
+            }
+            #OverflowDiv{overflow:auto}
+        </style>
+	</head>
+    <body bgcolor="black">
+        <div id="translateDiv">Translate</div><hr/>
+        <div id="rotateDiv">Rotate</div><hr/>
+        <div id="rotateDiv3D">Rotate 3D</div><hr/>
+        <div id="skewDiv">Skew</div><hr/>
+        <div id="scaleDiv">Scale</div><hr/>
+        <div id="opacityDiv">Opacity</div><hr/>
+        <div id="RGBAdiv">RGBA</div><hr/>
+        <div id="boxShadowDiv">Box Shadow</div><hr/>
+        <div id="textShadow">Text Shadow</div><hr/>
+        <div id="borderRadius">Border Radius</div><hr/>
+        <div id="overflowDiv">END END END END END END END END END END END END END END END END END END END END ENDEND END END END END END END END END END END END END END END END END END END END ENDEND END END END END END END END END END END END END ENDEND END END END END END END END END END END END END END END END END END END END END </div>
+    </body>
+</html>
